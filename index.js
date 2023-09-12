@@ -10,8 +10,15 @@
  */
 
 // Part 1 answer 👇🏻 ...
+let fullName = "Ahmad Almohanna";
+let yearOfBirth = 1992;
+let hobby = "Coding";
+let funFact = "I am learning code at CODED"
+const image = "https://classroomclipart.com/image/static2/preview2/engineer-concept-clipart-23903.jpg"
 
-
+let fullNameString = `My name is ${fullName}`;
+let yearOfBirthString = `I am ${2023 - yearOfBirth}`;
+let hobbyString = `my hobby is ${hobby}`;
 
 
 
@@ -45,14 +52,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars +=1;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars -=1;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars +=2;
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars -=2
 }
